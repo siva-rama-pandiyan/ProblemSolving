@@ -51,7 +51,7 @@ def binarySearchRecursive(arr, x, low, high):
 arr = [3, 5, 9, 10, 66, 88]
 x = 17
 low = 0
-high = len(arr)
+high = len(arr)-1
 print("Iterative result-->",binarySearchIterative(arr, x, low, high))
 print("Recursive result-->",binarySearchRecursive(arr, x, low, high))
 
